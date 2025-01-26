@@ -1,0 +1,138 @@
+#page {
+	margin: 0px auto;
+	padding: 0px;
+	width: 940px;
+}
+#haut {
+	background: url(../img/tableau%20d%20bord.jpg);
+}
+#nav {
+	background: #0FC;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+}
+#contenu {
+	margin: 0px;
+	padding: 0px;
+}
+#pied {
+	background: #CCC;
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+}
+#haut h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	padding-top: 30px;
+	padding-left: 10px;
+	background-color: #0CC;
+    text-align: center;
+    padding: 20px;
+}
+
+#nav ul {
+	width:940px; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+#nav ul li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	padding-left:10px;
+	
+}
+#nav li a {
+	text-decoration: none;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	display: table-caption;
+	margin: 0px;
+	float: left;
+	text-align: center;	
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+#nav li a:hover {
+	background-color: #000;
+}
+.active a {
+	background: #3FF;
+}
+#contenu h1 {
+	color: #000;
+}
+#contenu h4 {
+	color: #000;
+}
+#contenu p {
+	color: #333;
+}
+
+.img-left {
+	float: left;
+	margin-right: 10px;
+}
+img-right {
+	float: right;
+	margin-left: 10px;
+}
+#pied p {
+	height: 25px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.bloc {
+	float: left;
+	width: 300px;
+	margin-right: 10px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: capitalize;
+	color: #FFF;
+}
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+#slider {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes example {
+  0%   {background:url(../img/renault_PNG33.png); left:0px; top:0px;}
+  25%  {background:url(../img/opel_PNG26.png); left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
